@@ -25,9 +25,14 @@ set number
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[1 q"
 
+
 " Fuzzy File Finder
 " Search the file deep down in the subdirectory
 set path+=**
 
 " Display all matching files when tab complete
 set wildmenu
+
+
+" Tab width
+set tabstop=4
